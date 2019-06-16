@@ -1,5 +1,5 @@
 # Overview
-This program is to monitor the wireless connection status of the access points in the radio range. For each access point, it tries to check the followings and stores the results per the AP.  
+This program is to monitor Wi-Fi connection status to the target access points in the radio range. For each access point, it tries to check the followings and stores the results per the AP.  
 1. Whether the AP is in the radio range or not   
 2. Whether the AP can be associated or not with given credentials  
 3. Whether it can connect to the gateway or not via the associated AP   
