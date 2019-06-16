@@ -63,7 +63,7 @@ class EmailReporter( Reporter ):
     self._to = _recipients 
     log.debug( self._to )
     self._timeout = timeout
-    self._subject = "Wi-Fi monitor for coffeebreak"
+    self._subject = "1st floor Wi-Fi monitor"
     self._send_count = 1
     self._email_freq = 1800 # will send email in every 30 minutes 
     #self._email_freq = 60 # will send email in every minute 
