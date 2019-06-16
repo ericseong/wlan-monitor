@@ -5,7 +5,7 @@ This program is to monitor the wireless connection status of the access points i
 3 Whether it can connect to the gateway via the associated AP   
 4 Whether it can connect to the internet via the associated AP   
 
-The gathered status info. is presented both onto the e-paper display and is also sent to the given email addresses periodically. This program has been tested on RPi3 b+ running Rasbian stretch lite.  
+The gathered status info. is presented onto the e-paper display and is also sent to the given email addresses periodically. This program has been tested on RPi3 b+ running Rasbian stretch lite.  
 
 # Usage
 wlan_monitor.py --configfile wifi.json --toaddrs recipients.json --interval interval_in_seconds  
