@@ -15,11 +15,6 @@ cp -f wlanmonitor_startup2.sh /usr/local/bin
 cp -f wifiap_evaluate2.sh /usr/local/bin
 cp -f wlanmonitor_controller2.sh /usr/local/bin
 
-cp -f wlanmonitor_startup.sh /usr/local/bin
-cp -f wifiap_evaluate.sh /usr/local/bin
-cp -f wlanmonitor_controller.sh /usr/local/bin
-cp -f cleanup_nmlist.sh /usr/local/bin
-
 cp -f systemd-service/wlanmonitor.service /etc/systemd/system/ 
 cp -f systemd-service/wlanmonitor_controller.service /etc/systemd/system/ 
 
