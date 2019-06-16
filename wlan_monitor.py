@@ -230,8 +230,8 @@ def main( argv ):
   time.sleep( 30 )
 
   # When we start/stop the service, there could be a case when mac driver or netif or wpa_supplicant is not activated. 
-  os.system( 'wlanmonitor_startup2.sh' )
-  log.info( "wlanmonitor_startup2.sh" )
+  #os.system( 'wlanmonitor_startup2.sh' )
+  #log.info( "wlanmonitor_startup2.sh" )
 
   # now, run
   _wlan_mon = WlanMonitor( _args )
