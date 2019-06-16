@@ -89,13 +89,6 @@ class WlanMonitor(object):
 
     return False
 
-  def _forceScan( self ):
-    '''
-    force wifi to rescan
-    '''
-    os.system( 'wifiap_evaluate2.sh force_scan' + ' ' + self._getNetIf() )
-    return
-
   def _evaluateOne( self, ap ):
     '''
     evaluate a single AP
