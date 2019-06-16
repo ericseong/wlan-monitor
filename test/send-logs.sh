@@ -25,7 +25,7 @@ echo '' |  mail -s "Message from wlanmonitor_controller. This message has been s
   -A "${now}-syslog.txt" \
   -A "${now}-mail-log.txt" \
   -A "${now}-mail-err.txt" \
-  coffeebreak2.2019@gmail.com 
+  account@myemail.com 
 }
 
 send_logs
