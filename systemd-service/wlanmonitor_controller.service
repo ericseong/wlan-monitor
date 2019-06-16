@@ -1,0 +1,10 @@
+[Unit]
+Description = wireless lan monitor controller
+After = network.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/work/wlan-monitor/wlanmonitor_controller2.sh
+
+[Install]
+WantedBy = default.target 

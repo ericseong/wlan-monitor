@@ -1,0 +1,10 @@
+[Unit]
+Description = wireless lan monitor
+After = network.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/work/wlan-monitor/wlan_monitor.py --configfile /home/pi/work/wlan-monitor/wifi.json --toaddrs /home/pi/work/wlan-monitor/recipients.json --interval 1 
+
+[Install]
+WantedBy = default.target 

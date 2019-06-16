@@ -1,0 +1,29 @@
+{ 
+  "netif":"wlan0",
+  "aps":[  
+    {  
+      "ssid":"coffeebreak_2.4g",
+      "passwd":"coffeebreak1**"
+    },
+    {  
+      "ssid":"coffeebreak_5g",
+      "passwd":"coffeebreak1**"
+    },
+    {  
+      "ssid":"coffeebreak2_2.4g",
+      "passwd":"coffeebreak1**"
+    },
+    {  
+      "ssid":"coffeebreak2_5g",
+      "passwd":"coffeebreak1**"
+    },
+    {  
+      "ssid":"coffeebreak3_2.4g",
+      "passwd":"coffeebreak1**"
+    },
+    {  
+      "ssid":"coffeebreak3_5g",
+      "passwd":"coffeebreak1**"
+    }
+  ]
+}
