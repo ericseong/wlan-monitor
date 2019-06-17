@@ -69,7 +69,7 @@ function connect_to_internet()
 sleep 20
 
 # send logs via email if there's some to send 
-if find /home/pi/work/wlan-monitor/log -type f -name "*.txt" -mindepth 1 -print -quit 2>/dev/null | grep -q .; then
+if find $LOG_DIR -type f -name "*.txt" -mindepth 1 -print -quit 2>/dev/null | grep -q .; then
   echo "Trying to stop wlanmonitor.."
   systemctl stop wlanmonitor
   sleep 1
@@ -82,7 +82,7 @@ if find /home/pi/work/wlan-monitor/log -type f -name "*.txt" -mindepth 1 -print 
     echo "Cannot connect to internet."
   fi
 
-  find /home/pi/work/wlan-monitor/log -type f -name "*.txt" -exec rm -rv {} \;
+  find $LOG_DIR -type f -name "*.txt" -exec rm -rv {} \;
 
   echo "Restaring wlanmonitor.."
   systemctl start wlanmonitor
